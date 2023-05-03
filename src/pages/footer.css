@@ -15,6 +15,24 @@
     text-align: center;
     line-height: 40px;
   }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  header {
+    border-bottom: none;
+  }
+
+  body {
+    font-family: "Drugs", sans-serif;
+  }
   
   .social-icons a:hover {
     transform: translateY(-5px);

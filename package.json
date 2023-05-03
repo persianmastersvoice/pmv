@@ -24,9 +24,9 @@
     "gatsby-plugin-feed": "^5.5.0",
     "gatsby-plugin-manifest": "^5.5.0",
     "gatsby-plugin-sitemap": "^6.5.0",
-    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.30",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
@@ -34,5 +34,16 @@
     "@types/react-dom": "^18.0.10",
     "cross-env": "^7.0.3",
     "typescript": "^4.9.4"
+  },
+  "gatsby-plugin-webpack-bundle-analyser-v2": {
+    "analyzerMode": "server",
+    "analyzerPort": 8888,
+    "defaultSizes": "gzip",
+    "openAnalyzer": false,
+    "generateStatsFile": true,
+    "statsFilename": "stats.json",
+    "excludeAssets": null,
+    "excludeModules": null,
+    "logLevel": "info"
   }
 }

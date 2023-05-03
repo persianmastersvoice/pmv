@@ -7,7 +7,7 @@ import Layout from "../@lekoarts/gatsby-theme-minimal-blog/components/Layout";
 const FirstPage = () => {
   return (
 <Layout pageTitle="TEST">
-      <img src="../logo.jpg" alt="Logo" />
+      <img src="../HomePage/FrontPageBaner1.png" alt="first" />
       <div className="social-icons">
         <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
           <span className="bi bi-facebook"><FontAwesomeIcon icon={faFacebook} /></span>

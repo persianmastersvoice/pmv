@@ -1,5 +1,7 @@
-import type { GatsbyConfig, PluginRef } from "gatsby"
+//import type { GatsbyConfig, PluginRef } from "gatsby"
+import { GatsbyConfig, PluginRef } from "gatsby";
 import "dotenv/config"
+
 
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
@@ -17,8 +19,31 @@ const config: GatsbyConfig = {
     siteLanguage: `en`,
     author: `@lekoarts_de`,
   },
+
+  
+    
+
   trailingSlash: `never`,
   plugins: [
+
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`,
+      },
+    },
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`,
+      },
+    },
+    
+
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
