@@ -19,7 +19,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@lekoarts/gatsby-theme-minimal-blog": "^6.0.5",
+    "@lekoarts/gatsby-theme-minimal-blog": "file:@lekoarts/gatsby-theme-minimal-blog",
     "gatsby": "^5.9.0",
     "gatsby-plugin-feed": "^5.5.0",
     "gatsby-plugin-manifest": "^5.5.0",
