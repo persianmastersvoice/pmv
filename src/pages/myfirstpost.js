@@ -15,7 +15,7 @@ const FirstPage = () => {
       
        
   <div class="footer-container">
-  <p className="mb-1" style={{ fontFamily: "Drugs, sans-serif", fontSize: "2vw" }}>
+  <p className="mb-1" style={{ fontFamily: "Drugs, sans-serif", fontSize: "1vw" }}>
     &copy; Copyright Persian Master's Voice
     2022
 </p>
